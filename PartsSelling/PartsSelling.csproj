@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{27983F9D-2515-40A1-9D4C-979E8B824EA8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PartsSelling</RootNamespace>
+    <AssemblyName>PartsSelling</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\BaseFormClass\BaseFormClass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Classes\Cart.cs" />
+    <Compile Include="Classes\Part.cs" />
+    <Compile Include="Classes\UserData.cs" />
+    <Compile Include="Forms\CaptchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CaptchForm.Designer.cs">
+      <DependentUpon>CaptchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CartForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CartForm.Designer.cs">
+      <DependentUpon>CartForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\EditPartForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\EditPartForm.Designer.cs">
+      <DependentUpon>EditPartForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\OrderSupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\OrderSupForm.Designer.cs">
+      <DependentUpon>OrderSupForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PartsListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PartsListForm.Designer.cs">
+      <DependentUpon>PartsListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Classes\BaseFormClass\BaseFormClass.resx">
+      <DependentUpon>BaseFormClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CaptchForm.resx">
+      <DependentUpon>CaptchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CartForm.resx">
+      <DependentUpon>CartForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EditPartForm.resx">
+      <DependentUpon>EditPartForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\OrderSupForm.resx">
+      <DependentUpon>OrderSupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PartsListForm.resx">
+      <DependentUpon>PartsListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\auth.png" />
+    <Content Include="Images\bg.png" />
+    <Content Include="Images\login.png" />
+    <Content Include="Images\motor_oil.png" />
+    <Content Include="Images\Object-1.png" />
+    <Content Include="Images\Object.png" />
+    <Content Include="Images\PartsSelling -  Управление вашими  потребностями в  запчастях копия.png" />
+    <Content Include="Images\password.png" />
+    <Content Include="Images\top btns.png" />
+    <Content Include="Images\topelem.png" />
+    <Content Include="Images\Слой 3 копия 2.png" />
+    <Content Include="Images\Слой 3 копия.png" />
+    <Content Include="Images\Слой 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\Captch\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

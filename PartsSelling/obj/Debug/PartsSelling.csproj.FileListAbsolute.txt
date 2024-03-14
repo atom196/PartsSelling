@@ -1,0 +1,16 @@
+C:\Users\zzzat\OneDrive\Рабочий стол\sanya\PartsSelling\bin\Debug\PartsSelling.exe.config
+C:\Users\zzzat\OneDrive\Рабочий стол\sanya\PartsSelling\bin\Debug\PartsSelling.exe
+C:\Users\zzzat\OneDrive\Рабочий стол\sanya\PartsSelling\bin\Debug\PartsSelling.pdb
+C:\Users\zzzat\OneDrive\Рабочий стол\sanya\PartsSelling\obj\Debug\PartsSelling.csproj.AssemblyReference.cache
+C:\Users\zzzat\OneDrive\Рабочий стол\sanya\PartsSelling\obj\Debug\PartsSelling.Properties.Resources.resources
+C:\Users\zzzat\OneDrive\Рабочий стол\sanya\PartsSelling\obj\Debug\PartsSelling.csproj.GenerateResource.cache
+C:\Users\zzzat\OneDrive\Рабочий стол\sanya\PartsSelling\obj\Debug\PartsSelling.csproj.CoreCompileInputs.cache
+C:\Users\zzzat\OneDrive\Рабочий стол\sanya\PartsSelling\obj\Debug\PartsSelling.exe
+C:\Users\zzzat\OneDrive\Рабочий стол\sanya\PartsSelling\obj\Debug\PartsSelling.pdb
+C:\Users\zzzat\OneDrive\Рабочий стол\sanya\PartsSelling\obj\Debug\PartsSelling.LoginForm.resources
+C:\Users\zzzat\OneDrive\Рабочий стол\sanya\PartsSelling\obj\Debug\PartsSelling.Forms.PartsListForm.resources
+C:\Users\zzzat\OneDrive\Рабочий стол\sanya\PartsSelling\obj\Debug\PartsSelling.Classes.BaseFormClass.resources
+C:\Users\zzzat\OneDrive\Рабочий стол\sanya\PartsSelling\obj\Debug\PartsSelling.Forms.CartForm.resources
+C:\Users\zzzat\OneDrive\Рабочий стол\sanya\PartsSelling\obj\Debug\PartsSelling.Forms.CaptchForm.resources
+C:\Users\zzzat\OneDrive\Рабочий стол\sanya\PartsSelling\obj\Debug\PartsSelling.Forms.EditPartForm.resources
+C:\Users\zzzat\OneDrive\Рабочий стол\sanya\PartsSelling\obj\Debug\PartsSelling.Forms.OrderSupForm.resources
